@@ -1,70 +1,170 @@
-# Getting Started with Create React App
+[![GitHub Repo stars](https://img.shields.io/github/stars/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github)](https://github.com/mshuber1981/github-react-portfolio-template/stargazers/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# GitHub React Portfolio Template
 
-## Available Scripts
+A fast, responsive React portfolio template that uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest).
 
-In the project directory, you can run:
+Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
 
-### `npm start`
+[Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Page Speed](/images/speed.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### <a href="https://mshuber1981.github.io/github-react-portfolio-template/">LIVE DEMO</a>
 
-### `npm test`
+![Project Preview](/images/preview.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+1. Clone/download
+1. Install the dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   - ```bash
+     npm i
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Navigate to the src directory and open data.js
+1. Add your GitHub username (data.js line 19)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   - ```javascript
+     /* START HERE - add your GitHub username below
+      ************************************************************** */
+     export const githubUsername = "Your GitHub username here";
+     ```
 
-### `npm run eject`
+1. Start the development server to view the results
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   - ```bash
+     npm start
+     ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Updating the Skills section
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Skills Preview](/images/skills.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Import your desired skill icons (data.js line 1)
 
-## Learn More
+   - ```javascript
+     // https://react-icons.github.io/
+     import {
+       FaHtml5,
+       FaCss3Alt,
+       FaSass,
+       FaBootstrap,
+       FaReact,
+       FaNpm,
+       FaGitAlt,
+       FaGithubSquare,
+     } from "react-icons/fa";
+     import { SiJavascript } from "react-icons/si";
+     ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Follow the instructions to update the skillData array (data.js line 23)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - ```javascript
+     /* Skills
+     ************************************************************** */
+     // Add or remove skills in the SAME format below
+     // There must be one icon imported above per skill below and 3 skills per row
+     export const skillData = [
+       {
+         id: 1,
+         skill: <FaHtml5 className="display-4" />,
+         name: "HTML5",
+       },
+     ```
 
-### Code Splitting
+## Updating the Projects section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Projects Preview](/images/projects.png)
 
-### Analyzing the Bundle Size
+1. Follow the instructions to update the filteredProjects array (data.js line 83)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   - ```javascript
+     /* Projects
+      ************************************************************** */
+     // List the repo names you want to include (they will be sorted alphabetically)
+     // Leave the array empty if you want to include everything
+     export const filteredProjects = [
+       "Background-Generator",
+       "github-react-portfolio-template",
+       "notepad",
+     ];
+     ```
 
-### Making a Progressive Web App
+1. Import the projects images you want to use (data.js line 14), skip steps 2-3 if you want to use the default image
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   - ```javascript
+     // Projects Images
+     // Add your images to the /assets/images directory and import below
+     import colors from "./assets/images/colors.svg";
+     import robot from "./assets/images/robot.svg";
+     import notepad from "./assets/images/notepad.svg";
+     ```
 
-### Advanced Configuration
+1. Follow the instructions to update the projectData array (data.js line 92)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   - ```javascript
+     // List the card images you want to include in the same order as the repos above
+     // There MUST be one image per repo above or the defualt image will be applied
+     export const projectData = [
+       {
+         image: colors,
+       },
+       {
+         image: notepad,
+       },
+       {
+         image: robot,
+       },
+     ];
+     ```
 
-### Deployment
+## Updating the Contact section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Contact Preview](/images/contact.png)
 
-### `npm run build` fails to minify
+1. Follow the instructions to update the contactInfo object (data.js line 109)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   - ```javascript
+     /* Contact Info
+      ************************************************************** */
+     // Share the contact info you are comfortable with (no dashes for phone numbers)
+     // If no info provided a button with a link to mailchimp will be rendered
+     // Update the link if you want to use this option
+     export const contactInfo = {
+       email: "",
+       phone: "",
+       mailChimp: "https://www.mailchimp.com/",
+     };
+     ```
+
+## Deploy
+
+A helpful guide for Create React App deployments with GitHub Pages can be found <a href="https://create-react-app.dev/docs/deployment#github-pages">here</a>.
+
+1. Update the homepage value in package.json (line 3)
+
+   - ```javascript
+     "homepage": "https://yourusername.github.io/your-app/",
+     ```
+
+1. Run the deployment command
+
+   - ```bash
+     npm run deploy
+     ```
+
+## Donate
+
+Was this helpful? Feeling generous? Please consider donating below.
+
+My [Coinbase](https://www.coinbase.com/) Bitcoin wallet address:
+
+![Bitcoin](/images/bitcoin.png)
+
+[Back to top ⬆](#github-react-portfolio-template)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
