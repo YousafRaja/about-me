@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/about-me/static/css/main.04ed170f.chunk.css",
-    "main.js": "/about-me/static/js/main.246bf98d.chunk.js",
-    "main.js.map": "/about-me/static/js/main.246bf98d.chunk.js.map",
-    "runtime-main.js": "/about-me/static/js/runtime-main.c49ec4b0.js",
-    "runtime-main.js.map": "/about-me/static/js/runtime-main.c49ec4b0.js.map",
-    "static/js/2.a44e9984.chunk.js": "/about-me/static/js/2.a44e9984.chunk.js",
-    "static/js/2.a44e9984.chunk.js.map": "/about-me/static/js/2.a44e9984.chunk.js.map",
-    "static/js/3.6297979b.chunk.js": "/about-me/static/js/3.6297979b.chunk.js",
-    "static/js/3.6297979b.chunk.js.map": "/about-me/static/js/3.6297979b.chunk.js.map",
+    "main.css": "/about-me/static/css/main.006bef89.chunk.css",
+    "main.js": "/about-me/static/js/main.0f471a3c.chunk.js",
+    "main.js.map": "/about-me/static/js/main.0f471a3c.chunk.js.map",
+    "runtime-main.js": "/about-me/static/js/runtime-main.0328199d.js",
+    "runtime-main.js.map": "/about-me/static/js/runtime-main.0328199d.js.map",
+    "static/js/2.867302ea.chunk.js": "/about-me/static/js/2.867302ea.chunk.js",
+    "static/js/2.867302ea.chunk.js.map": "/about-me/static/js/2.867302ea.chunk.js.map",
     "index.html": "/about-me/index.html",
-    "static/css/main.04ed170f.chunk.css.map": "/about-me/static/css/main.04ed170f.chunk.css.map",
-    "static/js/2.a44e9984.chunk.js.LICENSE.txt": "/about-me/static/js/2.a44e9984.chunk.js.LICENSE.txt",
-    "static/media/profile-image.5c58a454.png": "/about-me/static/media/profile-image.5c58a454.png"
+    "static/css/main.006bef89.chunk.css.map": "/about-me/static/css/main.006bef89.chunk.css.map",
+    "static/js/2.867302ea.chunk.js.LICENSE.txt": "/about-me/static/js/2.867302ea.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/about-me/static/media/PermanentMarker-Regular.109a10dc.ttf",
+    "static/media/colors.1aa9d066.svg": "/about-me/static/media/colors.1aa9d066.svg",
+    "static/media/logo.6ce24c58.svg": "/about-me/static/media/logo.6ce24c58.svg",
+    "static/media/notepad.00bfae70.svg": "/about-me/static/media/notepad.00bfae70.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c49ec4b0.js",
-    "static/js/2.a44e9984.chunk.js",
-    "static/css/main.04ed170f.chunk.css",
-    "static/js/main.246bf98d.chunk.js"
+    "static/js/runtime-main.0328199d.js",
+    "static/js/2.867302ea.chunk.js",
+    "static/css/main.006bef89.chunk.css",
+    "static/js/main.0f471a3c.chunk.js"
   ]
 }
