@@ -22,34 +22,6 @@
         },
 
         {
-            "id": "experience",
-            "categoryId": "background",
-            "jsonPath": "/data/sections/experience.json",
-            "faIcon": "fa-solid fa-briefcase"
-        },
-
-        {
-            "id": "portfolio",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/portfolio.json",
-            "faIcon": "fa-solid fa-folder-open"
-        },
-
-        {
-            "id": "achievements",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
-        },
-
-        {
-            "id": "updates",
-            "categoryId": "more",
-            "jsonPath": "/data/sections/updates.json",
-            "faIcon": "fa-solid fa-rss"
-        },
-
-        {
             "id": "contact",
             "categoryId": "more",
             "jsonPath": "/data/sections/contact.json",

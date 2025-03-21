@@ -46,7 +46,7 @@
 
             "items": [
                 {
-                    "value": "SanFrancisco – CA",
+                    "value": "Calgary, AB – Canada",
                     "links": [
                         {"href": null}
                     ],
@@ -114,47 +114,18 @@
             "component": "ArticleTestimonials",
             "config": {},
             "locales": {
-                "en": {"title": "Client **testimonials**"},
+                "en": {"title": "LinkedIn **Recommendations**"},
                 "es": {"title": "Testimonios de **clientes**"},
                 "fr": {"title": "Témoignages de **clients**"},
                 "ko": {"title": "**고객** 추천사"}
             },
 
             "items": [
-                {
-                    "value": "Anita Bath",
-                    "links": [
-                        {"href": "https://linkedin.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-1.png",
-                        "fa": "fa-solid fa-user",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "CEO at <b>SalesForce</b>",
-                            "text": "Working with Mark was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
-                        },
-                        "es": {
-                            "info": "CEO en <b>SalesForce</b>",
-                            "text": "Trabajar con Mark fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
-                        },
-                        "fr": {
-                            "info": "PDG de <b>SalesForce</b>",
-                            "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
-                        },
-                        "ko": {
-                            "info": "세일즈포스  CEO",
-                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
-                        }
-                    }
-                },
 
                 {
-                    "value": "Lou Natic",
+                    "value": "Damian Warzecha",
                     "links": [
-                        {"href": "https://github.com"}
+                        {"href": "https://www.linkedin.com/in/damian-warzecha/"}
                     ],
                     "icon": {
                         "img": "images/pictures/person-3.png",
@@ -163,8 +134,8 @@
                     },
                     "locales": {
                         "en": {
-                            "info": "Lead Developer at <b>GitHub</b>",
-                            "text": "Having Mark on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                            "info": "Software Engineer @ Meta | ex-AWS",
+                            "text": "Yousaf and I worked together on a number of projects. It was a pleasure to have him on the team. He took the initiative to improve a lot of internal tools and worked tirelessly on making our documentation useful. Yousaf was always very approachable and ready to share his knowledge with team members."
                         },
                         "es": {
                             "info": "Desarrollador Principal en <b>GitHub </b>",
@@ -182,9 +153,9 @@
                 },
 
                 {
-                    "value": "Paige Turner",
+                    "value": "Michelle Lim",
                     "links": [
-                        {"href": null}
+                        {"href": "https://www.linkedin.com/in/michelle-lim-4aa71a14b/"}
                     ],
                     "icon": {
                         "img": "images/pictures/person-2.png",
@@ -193,8 +164,8 @@
                     },
                     "locales": {
                         "en": {
-                            "info": "Managing Director at <b>Dingga</b>",
-                            "text": "Collaborating with Mark was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
+                            "info": "Software Developer Engineer at Amazon",
+                            "text": "Yousaf is always willing to help whenever approached with a problem. He does so by openly sharing his knowledge in an easy to understand manner. It was a pleasure to work alongside him! :)"
                         },
                         "es": {
                             "info": "Directora General en <b>Dingga</b>",
@@ -207,36 +178,6 @@
                         "ko": {
                             "info": "딩가 전무이사",
                             "text": "Mark와의 협업은 우리의 개발 프로세스에 혁신을 가져왔습니다. 그의 전문성과 문제 해결 능력은 우리의 성공에 없어서는 안 될 요소였습니다."
-                        }
-                    }
-                },
-
-                {
-                    "value": "Chris P. Bacon",
-                    "links": [
-                        {"href": "https://dribbble.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-4.png",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "Creative Director at <b>Dribbble</b>",
-                            "text": "Mark's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
-                        },
-                        "es": {
-                            "info": "Directora Creativa en <b>Dribbble</b>",
-                            "text": "La atención al detalle de Mark y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
-                        },
-                        "fr": {
-                            "info": "Directrice Créative chez <b>Dribbble</b>",
-                            "text": "L'attention aux détails de Mark et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
-                        },
-                        "ko": {
-                            "info": "<b>Dribbble</b> 크리에이티브 디렉터",
-                            "text": "Mark의 세부 사항에 대한 주의와 혁신적인 사고는 우리 디자인 프로세스에 신선한 관점을 제공했습니다. 그는 팀의 작업을 향상시키고 기대 이상의 결과를 제공하는 데 큰 도움을 주었습니다."
                         }
                     }
                 }
